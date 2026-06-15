@@ -1,0 +1,204 @@
+<link rel= "preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap" rel="stylesheet">;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Merienda', cursive;
+}
+
+#fundo{
+    background-image: url(../images/beyond_the_world.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+header{
+    background-color: #000;
+    height: 50px;
+    padding-top: 15px;
+    margin-bottom: 30px;
+}
+
+.menu {
+    font-size: 20px;
+    text-decoration: none;
+    color: #19C77E;
+    display: flex;
+    max-width: 1100px;
+    margin:auto;
+    margin-right: 80px;
+    list-style: none;
+}
+
+.menu :hover {
+    color: #12915C;
+}
+
+header li{
+    border-left: solid 4px;
+    padding-left: 10px;
+}
+
+main{
+    width: 800px;
+    margin: auto;
+    color: #41E7A1;
+    margin-top: 40px;
+}
+
+#main h1{
+    text-align: center;
+}
+
+#main div{
+    margin: 50px 0px;
+    text-align: justify;
+    border: 2px solid;
+    padding: 10px;
+    background-color: #000000c2;
+    border-radius: 15px;
+}
+
+#main_2 h1{
+    text-align: center;
+}
+
+#main_2 div{
+    margin: 50px 0px;
+    text-align: justify;
+    border: 2px solid;
+    padding: 10px;
+    background-color: #00000094;
+    border-radius: 15px;
+}
+
+main .associacao{
+    display: block;
+    margin: 30px auto;
+}
+
+
+main .classe{
+    height: 400px;
+    width: 600px;
+    display: block;
+    margin: 0 auto;    
+}
+
+main #description{
+    margin: 20px 5px 5px 5px;
+}
+
+main button{
+    margin-bottom:20px ;
+    width: 100px;
+    height: 25px;
+    margin-right: 20px;
+    background-color: #41E7E7; 
+}
+
+main button:hover{
+    cursor:pointer;
+}
+
+#main h2{
+    margin-bottom: 15px;
+}
+
+div #agua{
+    margin: 15px ;
+}
+
+div ul li{
+    margin: 15px;
+    list-style:none ;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr  ;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 20px
+}
+
+.list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: solid 1px;
+    gap:0px 10px;
+    margin: 0px 5px;
+    background-color: #000000c2 ;
+}
+
+.list h2{
+    margin: 10px ;
+    text-align: center;
+}
+
+.list p{
+    margin-top: 15px;
+}
+
+#grid img{
+    width: 100%;
+
+}
+
+.caracters{
+    height: 300px;
+}
+
+.slider img{
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+}
+.slider{
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.slider p{
+    position: absolute;
+    top: 0;
+    color: #41E7A1 ;
+}
+
+#rodape{
+    margin-top: 30px;
+    height: 70px;
+    background-color: #2e2323;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 12px;
+}
+
+#fixed{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #2e2323;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px 0px;
+}
+
+footer img{
+    position:absolute;
+    right: 10px;
+    display: block;
+    height: 40px;
+    width: 40px;
+}
